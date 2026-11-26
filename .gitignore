@@ -1,0 +1,131 @@
+
+# ==========================================
+# PYTHON
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# ==========================================
+# VIRTUAL ENVIRONMENTS
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+
+# ==========================================
+# ENVIRONMENT VARIABLES & API KEYS
+# ==========================================
+.env
+.env.*
+!.env.example
+!.env.sample
+
+# ==========================================
+# LANGCHAIN & LANGGRAPH
+# ==========================================
+.langchain/
+.langgraph/
+langgraph.json.tmp
+
+# ==========================================
+# LLM MODELS & MODEL WEIGHTS
+# ==========================================
+models/
+*.gguf
+*.safetensors
+*.bin
+*.pt
+*.pth
+*.onnx
+*.h5
+
+# ==========================================
+# VECTOR DATABASES & EMBEDDINGS
+# ==========================================
+chroma/
+chroma_db/
+vectorstore/
+vector_store/
+faiss_index/
+*.faiss
+*.index
+qdrant_storage/
+.lancedb/
+weaviate_data/
+
+# ==========================================
+# RAG DOCUMENTS & DATA
+# ==========================================
+data/raw/
+data/processed/
+uploads/
+documents/
+*.pdf
+*.docx
+
+# ==========================================
+# JUPYTER NOTEBOOKS
+# ==========================================
+.ipynb_checkpoints/
+
+# ==========================================
+# LOGS & CACHE
+# ==========================================
+*.log
+logs/
+.cache/
+cache/
+tmp/
+temp/
+
+# ==========================================
+# TESTING & COVERAGE
+# ==========================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ==========================================
+# LINTING & TYPE CHECKING
+# ==========================================
+.mypy_cache/
+.dmypy.json
+.pyre/
+.pytype/
+.ruff_cache/
+
+# ==========================================
+# BUILD & DISTRIBUTION
+# ==========================================
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+
+# ==========================================
+# IDE & EDITORS
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ==========================================
+# OS FILES
+# ==========================================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==========================================
+# LOCAL CONFIGURATION
+# ==========================================
+.python-version
